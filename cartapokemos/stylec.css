@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+section
+{
+    width: 80%;
+    min-width: 320px;
+    max-width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.cajita{
+    background-color: rgb(130, 174, 241);
+    height: 500px;
+    width: 300px;
+    border-radius: 20px;
+    text-align: center;
+    position: absolute;
+    margin: 0 auto;
+    top: 40px;  
+    border-color: black;
+    border-style:groove
+    
+}
+p{
+    text-align: left;
+    margin-left: 20px;
+    font-style: italic;
+}
+hr{
+border-color: blue;
+}
+.cajitatitulo
+{
+    background-color: rgb(109, 72, 211);
+    height: 50px;
+    width: 150px;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 180%;
+    border-radius: 20px;
+    position: relative;
+    top: -20px; 
+    left: calc(50%,20px); 
+    margin: 0 auto;
+    border-color: black;
+    border-style:groove
+    
+    
+    
+}
+
+.foto
+{
+    
+    margin: 0px auto;
+    align-items: center;
+}
+img{
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px #999;
+    width: 50%;
+}
